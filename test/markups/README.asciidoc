@@ -1,4 +1,6 @@
 = Document Title
+// sectanchors will be ignored
+:sectanchors:
 
 == First Section
 
@@ -6,6 +8,8 @@
 * Two
 
 Refer to <<another-section>> or <<another-section-1>>.
+
+Navigate from {docname}{outfilesuffix} to xref:another-document.asciidoc[another document].
 
 == Another Section
 
